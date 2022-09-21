@@ -62,9 +62,7 @@ Du kannst auch in einem Gruppenchat den `/connect` Befehl ausführen. Die Gruppe
 
 Wenn du die Verbindung zu einer der Gruppe loswerden willst, machst du das mit `/disconnect`, um sie wiederzuholen benutzt du `/reconnect`. Infos über den momentanen Zustand von Rose gibt es mit `/connection`.
 
-<p>
 ![Lebenszyklus der "Bindung" an eine Gruppe](images/lifecycle.png)
-</p>
 *Lebenszyklus der "Bindung" an eine Gruppe*
 
 ## Kommandos
