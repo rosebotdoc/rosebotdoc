@@ -1,33 +1,50 @@
 # Rose Moderator
 
-Man kann Rose einfach in die Gruppe einladen wie einen normalen Nutzer und dann über Chatbefehle (alles, was mit `/` anfängt zählt i.d.R. als Kommando / Befehl) konfigurieren. Es gibt aber auch eine etwas elegantere Methode, damit keiner  sieht, was du mit dem Bot machst etc:
+Man kann Rose einfach in die Gruppe einladen wie einen normalen Nutzer und dann über Chatbefehle (alles, was mit `/` anfängt zählt i.d.R. als Kommando / Befehl) konfigurieren. Es gibt aber auch eine etwas elegantere Methode, damit keiner sieht, was du mit dem Bot machst etc:
 
 ## User-ID herausfinden
 
-Auch wenn wir Namen sehen kennt Telegram eigentlich nur IDs für User. Wenn du die ID eines Users herausfinden willst schreib einfach `/id <@username>` in den Chat. Das hat erstmal ncihts mit Rose zu tun:
+Auch wenn wir Namen sehen kennt Telegram eigentlich nur IDs für User. Wenn du die ID eines Users herausfinden willst schreib einfach `/id <@username>` in den Chat. Rose erledigt den Rest & lässt es dich wissen, außer der Nutzer wurde vom Bot noch nie gesehen
 
 ```
-/id @day420day
+Scheunentor, [21.09.2022 06:10]
+/id @Scheunentor
+
+Rose, [21.09.2022 06:10]
+[In reply to Scheunentor]
+Die ID des Nutzers Scheunentor lautet 5452857841.
 ```
 
 **User haben immer positive, 8 stellige IDs.**
 ## Gruppen-ID herausfinden
 
-Tippe `/id` in den Gruppenchat, zu dem du Rose einladen willst. Gruppen haben immer negative 8 stellige Zahlen als IDs. Solltest du eine positive Zahl bekommen ist das eine User-ID und damit falsch.
-
-```
+Scheunentor, [21.09.2022 06:04]
 /id
 
+Rose, [21.09.2022 06:04]
+[In reply to Scheunentor]
+Die ID dieses Chats lautet: -1001612029422
+
+Tippe `/id` in den Gruppenchat, für den du Rose konfigurieren willst. Rose muss dafür schon in der Gruppe sein! Gruppen haben immer negative Zahlen als IDs. Solltest du eine positive Zahl bekommen ist das eine User-ID und damit falsch.
+
+```
+Scheunentor, [21.09.2022 06:04]
+/id
+
+Rose, [21.09.2022 06:04]
+[In reply to Scheunentor]
+Die ID dieses Chats lautet: -1001612029422
+
 ```
 
-Als Beispiel nehmen wir ID -12345678 und ziehen das Ganze exemplarisch durch.
+Als Beispiel nehmen wir ID -1001612029422 und ziehen das Ganze exemplarisch durch.
 
 ## Rose "anwerben"
 
 Mit der Gruppen-ID können wir Rose (den tatsächlichen Telegram Nutzer des Bots) anchatten und anweisen sich mit unserer Gruppe zu verbinden.
 
 ```
-/connect -12345678
+/connect -1001612029422
 
 ```
 
