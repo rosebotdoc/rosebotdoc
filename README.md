@@ -21,7 +21,7 @@ Mit der Gruppen-ID können wir Rose anchatten und anweisen sich mit unserer Grup
 
 ## Private Chat mit Rose statt Gruppenchat
 
-Solange Rose in der Gruppe ist, kannst du zu jedem Zeitpunkt mit `/connect` deinen Chat mit ihr wieder aufmachen. Hier wirst du die meisten Befehle absetzen.
+Solange Rose in der Gruppe ist, kannst du zu jedem Zeitpunkt mit `/connect <Gruppen-ID>` deinen Chat mit ihr wieder aufmachen. Hier wirst du die meisten Befehle absetzen.
 
 Wenn du die Verbindung zur der Gruppe loswerden willst, machst du das mit `/disconnect`, um sie wieder zu holen `/reconnect`. Infos über den momentanen Zustand von Rose gibt es mit `/connection`.
 
