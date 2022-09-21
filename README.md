@@ -8,15 +8,7 @@ Gesteuert wird der Bot dann über Chatbefehle (alles, was mit `/` anfängt zähl
 
 Tippe `/id` in den Gruppenchat, für den du Rose konfigurieren willst. Rose muss dafür schon in der Gruppe sein! Gruppen haben immer negative Zahlen als IDs. Solltest du eine positive Zahl bekommen ist das eine User-ID und damit falsch.
 
-```
-Scheunentor, [21.09.2022 06:04]
-/id
-
-Rose, [21.09.2022 06:04]
-[In reply to Scheunentor]
-Die ID dieses Chats lautet: -1001612029422
-
-```
+![Group](group-id.PNG)
 
 Als Beispiel nehmen wir ID -1001612029422 und ziehen das Ganze exemplarisch durch.
 
@@ -46,16 +38,9 @@ Wenn du die Verbindung zur der Gruppe loswerden willst, machst du das mit `/disc
 
 Auch wenn wir Namen sehen kennt Telegram eigentlich nur IDs für User. Wenn du die ID eines Users herausfinden willst schreib einfach `/id <@username>` in den Chat. Rose erledigt den Rest & lässt es dich wissen, außer der Nutzer wurde vom Bot noch nie gesehen
 
-```
-Scheunentor, [21.09.2022 06:10]
-/id @Scheunentor
+![User](user-id.PNG)
 
-Rose, [21.09.2022 06:10]
-[In reply to Scheunentor]
-Die ID des Nutzers Scheunentor lautet 5452857841.
-```
-
-**User haben immer positive, 8 stellige IDs.**
+**User haben immer positive IDs.**
 
 ### Kick (rauswerfen)
 
