@@ -9,15 +9,13 @@ Sollte man auf dem Handy oder mit Telegram Desktop unterwegs sein, kann man einf
 ## Rose per Telegram UI hinzufügen
 
 <p>
-Man kann Rose auch über die Telegram Oberfläche zu Gruppen hinzufügen. Der Username ist `https://t.me/MissRose_bot`. Im Profil des Bots kann über "Gruppe oder Kanal hinzufügen" 
+Man kann Rose auch über die Telegram Oberfläche zu Gruppen hinzufügen. Der Username ist `https://t.me/MissRose_bot`. Im Profil des Bots kann über "Gruppe oder Kanal hinzufügen" die Gruppen in denen Rose für einen aktiv ist verwalten.
 </p>
 
 <figure>
 <img src="images/profile.png" alt="Nutzerprofil" style="width:100%">
 <figcaption align = "center"><b>Das Nutzerprofil von Rose in der Telegram UI</b></figcaption>
 </figure>
-
-eine Gruppe ausgewählt werden.
 
 <figure>
 <img src="images/add-groups.png" alt="Telegram UI" style="width:100%">
@@ -204,14 +202,19 @@ Admin commands available:
 ```
 ## Administrator Kommandos
 
-Die Kommandos für Administratoren steuern die invasiven Operationen des Bots, die grobe Änderungen an der Gruppe bzw. Eingriffe in die Gruppe auslösen können. Hier kommt der Moderator-Gedanke ins Spiel, denn Rose kann eine ganze Menge Housekeeping Funktionalitäten einer Gruppe für dich übernehmen. Die Hilfefunktion, die du jederzeit mit `/help` aufrufen kannst, gibt einen nach Themen gruppierten Überblick:
+Die Kommandos für Administratoren steuern die invasiven Operationen des Bots, die grobe Änderungen an der Gruppe bzw. Eingriffe in die Gruppe auslösen können. Hier kommt der Moderator-Gedanke ins Spiel, denn Rose kann eine ganze Menge Housekeeping Funktionalitäten einer Gruppe für dich übernehmen. 
+
+Die Hilfefunktion, die du jederzeit mit `/help` aufrufen kannst, gibt einen nach Themen gruppierten Überblick der Kommandos, an dem wir uns entlang hangeln werden.
+
+<figure>
+<img src="images/admin-help.png" alt="Telegram UI" style="width:100%">
+<figcaption align = "center"><b>Hilfefunktion mit /help</b></figcaption>
+</figure>
+
+### Admin
 
 
 
-![Connect2](images/admin-help.png)<br/>
-*Nach Themen gruppierte Hilfefunktion*
-
-#### Admin
 #### Antiflood
 #### AntiRaid
 #### Approval
