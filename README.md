@@ -25,7 +25,7 @@ Als Beispiel nehmen wir ID -1001612029422 und ziehen das Ganze exemplarisch durc
 Mit der Gruppen-ID können wir Rose anchatten und anweisen sich mit unserer Gruppe zu "verbinden". **Ab diesem Moment ist dein privater Chat mit Rose quasi deine Administrator-Oberfläche!**
 
 
-![Connect](connect.png)
+![Connect](connect.PNG)
 
 ## Private Chat mit Rose statt Gruppenchat
 
