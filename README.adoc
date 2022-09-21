@@ -196,7 +196,7 @@ Die Hilfefunktion, die du jederzeit mit `/help` aufrufen kannst, gibt einen nach
 
 . Direkte Befehle, denen der Bot gehorcht. Es werden zwar Aktionen ausgelöst, diese ändern den Status des Bots aber nicht. Ein Beispiel wäre das Muten oder Kicken eines Users in der Gruppe. Diesen Teil der Kommandos wenden Admins aktiv im Tagesgeschäft der Gruppe an. Sie können sehr wohl den Status der Gruppe ändern, aber nicht den Status des Bots bzw. dessen Konfiguration.
 
-= Konfiguration
+== Konfiguration
 
 Folgende Kommandos werden für die Konfiguration der Gruppe bzw. des Moderators verwendet. Idealerweise solltest du für jedes dieser Kommandos deine persönliche Entscheidung bez. des zu konfigurierenden Verhaltens getroffen haben, bevor du Rose auf die Welt loslässt. 
 
@@ -213,9 +213,6 @@ Im Klartext heißt das, du kannst die folgenden Styleelemente verwenden:
 <strong>Fetter text</strong>
 **Fetter text**
 ----
-
-* 
-
 _Kursiver Text_
 
 [source,markdown]
@@ -224,8 +221,6 @@ _Kursiver Text_
 <em>Kursiver Text</em>
 *Kursiver Text*
 ----
-
-* 
 
 [line-through]#Durchgestrichener Text#
 
@@ -236,8 +231,6 @@ _Kursiver Text_
 ~~strike~~
 ----
 
-* 
-
 `Codeblock`
 
 [source,markdown]
@@ -246,122 +239,4 @@ _Kursiver Text_
 `Codeblock`
 ----
 
-<i>kursiv</i>, <em>kursiv</em> _kursiv_
 
-----
-
-wird zu 
-
-<b>bold</b>, <strong>bold</strong>, **bold**
-
-# Administration
-
-<figure>
-<img src="images/admin-help.png" alt="Telegram UI" style="width:100%">
-<figcaption align = "center"><b>Hilfefunktion mit /help</b></figcaption>
-</figure>
-
-## Administrator Management
-
-### /promote
-
-Mit `/promote` kannst du gezielt User zu Administratoren befördern. Hierfür hast du wie immer 2 Optionen:
-
-1. Beförderung über Namen bzw. ID
-
-`/promote `
-
-### Adminstratoren ernennen
-
-| Kommando                       | Für Admins verfügbar | Für user verfügbar | Beispiel |
-|--------------------------------|--------------------|-------------------|----------|
-| `/promote <@username oder ID>` |                      |                    |          |
-|                                |                    |                   |          |
-
-## Antiflood
-
-## AntiRaid
-
-## Approval
-
-## Bans
-
-#### Blocklists
-
-#### CAPTCHA
-
-#### Connections
-
-#### Disabling
-
-#### Federations
-
-#### Filters
-
-#### Formatting
-
-#### Greetings
-
-#### Import/Export
-
-#### Languages
-
-Stellt die Sprache der durch Rose verwendeten Texte um. Für uns relevant ist deutsch:
-
-----
-
-----
-
-#### Locks
-
-#### Log Channels
-
-#### Misc
-
-#### Notes
-
-#### Pin
-
-#### Privacy
-
-#### Purges
-
-#### Reports
-
-#### Rules
-
-#### Warnings
-
-### User Kommandos
-
-## Sprache ändern
-
-`/setlang de` stellt auf deutsche Sprache. `/setlang en` stellt wieder auf englisch.
-
-## Interaktion mit Usern
-
-### User-ID herausfinden
-
-Auch wenn wir Namen sehen kennt Telegram eigentlich nur IDs für User. Wenn du die ID eines Users herausfinden willst schreib einfach `/id <@username>` in den Chat. Rose erledigt den Rest & lässt es dich wissen, außer der Nutzer wurde vom Bot noch nie gesehen
-
-<figure>
-<img src="images/user-id-ano.png" alt="User-ID" style="width:100%">
-<figcaption align = "center"><b>Erfragen einer User-ID für einen gegebenen Namen</b></figcaption>
-</figure>
-
-**User haben immer positive IDs.**
-
-### Kick (rauswerfen)
-
-**Ein gekickter User kann immer wiederkommen!**
-
-Um einen User zu kicken gibt es 2 Möglichkeiten:
-
-----
-
-/kick &lt;@username or UserID&gt;
-```
-
-=== Mute (stumm schalten)
-
-=== Ban (verbannen)
