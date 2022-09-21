@@ -1,8 +1,3 @@
-| col1 | col2 | col3 |
-| ------ | ------ | ------ |
-|      |      |      |
-|      |      |      |
-
 # Rose als Moderatorin
 
 Rose muss immer zunächst einer Gruppe hinzugefügt werden (üblicherweise mit admin Rechten), damit man den Bot für besagte Gruppe konfigurieren kann.
