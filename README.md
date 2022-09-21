@@ -17,7 +17,7 @@ Als Beispiel nehmen wir ID -1001612029422 und ziehen das Ganze exemplarisch durc
 Mit der Gruppen-ID können wir Rose anchatten und anweisen sich mit unserer Gruppe zu "verbinden". **Ab diesem Moment ist dein privater Chat mit Rose quasi deine Administrator-Oberfläche!**
 
 
-![Connect](connect.PNG)
+![Connect](connect-with-id.png)
 
 ## Private Chat vs. Gruppenchat
 
@@ -40,7 +40,7 @@ Wenn du die Verbindung zur der Gruppe loswerden willst, machst du das mit `/disc
 
 Auch wenn wir Namen sehen kennt Telegram eigentlich nur IDs für User. Wenn du die ID eines Users herausfinden willst schreib einfach `/id <@username>` in den Chat. Rose erledigt den Rest & lässt es dich wissen, außer der Nutzer wurde vom Bot noch nie gesehen
 
-![User](user-id.PNG)
+![User](user-id-ano.PNG)
 
 **User haben immer positive IDs.**
 
