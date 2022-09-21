@@ -20,7 +20,7 @@ Die ID dieses Chats lautet: -1001612029422
 
 Als Beispiel nehmen wir ID -1001612029422 und ziehen das Ganze exemplarisch durch.
 
-## Rose "anwerben"
+## Rose mit Gruppe verbinden
 
 Mit der Gruppen-ID können wir Rose anchatten und anweisen sich mit unserer Gruppe zu "verbinden". **Ab diesem Moment ist dein privater Chat mit Rose quasi deine Administrator-Oberfläche!**
 
@@ -29,17 +29,11 @@ Mit der Gruppen-ID können wir Rose anchatten und anweisen sich mit unserer Grup
 
 ## Private Chat mit Rose statt Gruppenchat
 
-Sobald Rose in der Gruppe ist, kannst du zu jedem Zeitpunkt mit `/connect` deinen Chat mit ihr wieder aufmachen. Hier wirst du die meisten Befehle absetzen.
+Solange Rose in der Gruppe ist, kannst du zu jedem Zeitpunkt mit `/connect` deinen Chat mit ihr wieder aufmachen. Hier wirst du die meisten Befehle absetzen.
 
-Wenn du Rose aus der Gruppe loswerden willst, machst du das mit `/disconnect`, um sie wieder zu holen `/reconnect`. Infos über den momentanen Zustand von Rose gibt es mit `/connection`.
+Wenn du die Verbindung zur der Gruppe loswerden willst, machst du das mit `/disconnect`, um sie wieder zu holen `/reconnect`. Infos über den momentanen Zustand von Rose gibt es mit `/connection`.
 
-
-```
-```
-
-
-
-
+![Lebenszyklus](lifecycle.PNG)
 
 
 ## Sprache ändern
