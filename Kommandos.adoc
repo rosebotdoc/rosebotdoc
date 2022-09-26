@@ -1,0 +1,141 @@
+= Kommandos
+
+Verfügbare Kommandos werden aufteilt in Befehle für den Pöbel (User in deiner Gruppe) und Befehle für die Obrigkeit (Admins in deiner Gruppe). Das wird für dich im Chat mit Rose auch entsprechend visualisiert.
+
+[.right.text-center]
+image::images/commands.png[]
+
+Auf Knopfdruck werden wir mit einer ansehnlichen Menge Kommandos beworfen.
+
+== Kommandos für User
+
+Für User verfügbare Kommandos betreffen üblicherweise Informationen über Gruppe, Regeln oder andere informative Funktionen. Dazu kommen ein paar Jokes wie `/kickme`. Natürlich kann man als Admin jederzeit ändern, welche Möglichkeiten dem Pöbel zur Verfügung stehen und welche nicht. 
+
+Rose nennt uns ohne Einschränkungen die folgenden Kommandos:
+
+```shell
+User commands available:
+- /flood
+- /filters
+- /get
+- /notes
+- /saved
+- /adminlist
+- /info
+- /warns
+- /rules
+- /approval
+```
+
+[%autowidth.stretch]
+|===
+|Kommando | Beschreibung  | Beispiel
+| `/kickme` | Bittet Rose darum, den User zu kicken. Funktioniert leider nicht bei admins ;-) a| image::images/kickme.png[]
+| `/flood` | Zeigt die momentan geltenden Einschränkungen für zu geschwätzige Gruppenmitglieder a| image::images/flood.png[]
+| `/filters` | Zeige alle aktiven Filter an a| image::images/filters.png[]
+| `/get <notizname>` | Zeigt eine zuvor gespeicherte Notiz an. Alternativ kann auch `#<notizname>` verwendet werden. a| image::images/get.png[]
+| `/saved` | Zeigt alle gespeicherten Notizen an, die per `get` abgerufen werden können a| image::images/saved.png[]
+| `/adminlist` | Zeigt die Administratoren der Gruppe an a| image::images/adminlist.png[]
+| `/info <user>` | Zeigt Informationen für einen Benutzer an. Wird kein User angegeben, fragt man wie immer für sich selbst. a| image::images/info.png[]
+| `/warns <user>` | Zeigt die Warnungen für einen Benutzer an. Wird kein User angegeben, fragt man wie immer für sich selbst. a| image::images/warns.png[]
+| `/rules` | Zeigt einen Knopf für die konfigurierten Chat Regeln an a| image::images/rules.png[]
+| `/approval` | Zeigt an, ob ein bestimmter Nutzer Sonderrechte hat oder Teil des Pöbels ist. Wird kein User angegeben, fragt man wie immer für sich selbst. a| image::images/approval.png[]
+|===
+
+
+== Kommandos für Administratoren
+
+Die Kommandos für Administratoren steuern die invasiven Operationen des Bots, die grobe Änderungen an der Gruppe bzw. Eingriffe in die Gruppe auslösen können. Hier kommt der Moderator-Gedanke ins Spiel, denn Rose kann eine ganze Menge Housekeeping Funktionalitäten einer Gruppe für dich übernehmen.
+
+[source,shell]
+----
+Admin commands available:
+- /setlang
+- /antiraid
+- /raidmode
+- /raidtime
+- /raidactiontime
+- /autoantiraid
+- /setautoantiraid
+- /lock
+- /unlock
+- /allowlist
+- /rmallowlist
+- /lockwarns
+- /locks
+- /addblocklist
+- /unblocklist
+- /unblocklistall
+- /blocklist
+- /blocklistmode
+- /blocklistdelete
+- /setblocklistreason
+- /resetblocklistreason
+- /quietfed
+- /joinfed
+- /leavefed
+- /chatfed
+- /setflood
+- /setfloodmode
+- /filter
+- /stop
+- /stopall
+- /reports
+- /antichannelpin
+- /cleanlinked
+- /cleanlinkedchannel
+- /welcome
+- /goodbye
+- /setwelcome
+- /resetwelcome
+- /setgoodbye
+- /resetgoodbye
+- /cleanservice
+- /cleanwelcome
+- /captcha
+- /captchatime
+- /captchamode
+- /captchakick
+- /captchakicktime
+- /setcaptchatext
+- /resetcaptchatext
+- /captcharules
+- /save
+- /clear
+- /clearall
+- /privatenotes
+- /admincache
+- /legacyadmin
+- /anonadmin
+- /adminerror
+- /resetallwarns
+- /warnings
+- /setwarnmode
+- /warnmode
+- /setwarnlimit
+- /warnlimit
+- /setwarntime
+- /warntime
+- /setrules
+- /resetrules
+- /clearrules
+- /setrulesbutton
+- /resetrulesbutton
+- /privaterules
+- /logchannel
+- /log
+- /nolog
+- /disable
+- /enable
+- /disabled
+- /disabledel
+- /approve
+- /unapprove
+- /unapproveall
+- /approved
+- /export
+- /import
+- /silentactions
+
+----
+

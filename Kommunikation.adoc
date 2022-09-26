@@ -1,0 +1,33 @@
+=== Befehle über privaten Chat
+
+Wenn man nicht will, dass jeder die Befehle sehen kann, die man Rose gibt, gibt es noch eine etwas elegantere Möglichkeit der Steuerung:
+
+Du kannst über einen 1:1 privaten Chat zwischen Rose und dir beliebig viele Gruppen verwalten. Das offensichtliche Problem hierbei ist natürlich, wie du Rose mitteilst, welche Gruppe du gerade administrieren willst. Dafür brauchst du die Gruppen-ID.
+
+=== Gruppen-ID herausfinden
+
+Tippe `/id` in den Gruppenchat, für den du Rose konfigurieren willst. Rose muss dafür schon in der Gruppe sein! Gruppen haben immer negative Zahlen als IDs. Solltest du eine positive Zahl bekommen, ist das eine User-ID und du bist irgendwo falsch abgebogen.
+
+[.center.text-center]
+image::images/group-id.png[]
+
+
+Als Beispiel nehmen wir ID -1001612029422 und ziehen das Ganze exemplarisch durch.
+
+== Rose mit einer Gruppe connecten
+
+Mit der Gruppen-ID kannst du Rose mitteilen, dass du ab diesem Zeitpunkt mit allen deinen Befehlen eine bestimmte Gruppe meinst. Das gilt bis du dir es anders überlegst (s.u.). Der Bot nennt das "sich mit der Gruppe connecten".
+
+Das zugehörige Kommando ist `/connect &lt;Gruppen-ID&gt;`. In unserem Beispiel also `/connect -1001612029422`
+
+Sobald sich Rose erfolgreich mit einer Gruppe verbunden hat, *wird dein privater Chat mit Rose quasi deine Administrator-Oberfläche*.
+
+Du kannst auch in einem Gruppenchat den `/connect` Befehl ausführen. Die Gruppen-ID holt sich Rose dann aus der Gruppe, in der sie den Befehl findet und du musst sie nicht extra mit angeben. Solange Rose in der Gruppe ist, kannst du also zu jedem Zeitpunkt mit `/connect` im Gruppenchat wieder zu deiner Admin-Oberfläche (euren 1:1 Chat) für die jeweilige Gruppe springen.
+
+[.right.text-center]
+image::images/connect-pm.png[]
+
+Wenn du die Verbindung zu einer der Gruppe loswerden willst, machst du das mit `/disconnect`, um sie wiederzuholen benutzt du `/reconnect`. Infos über den momentanen Zustand von Rose gibt es mit `/connection`.
+
+[.center.text-center]
+image::images/lifecycle.png[]

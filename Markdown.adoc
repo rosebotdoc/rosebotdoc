@@ -1,0 +1,48 @@
+== Telegram Markdown
+
+Es werden https://core.telegram.org/api/entities[Markdown] und Knöpfe unterstützt.
+
+Im Klartext heißt das, du kannst die folgenden Styleelemente verwenden:
+
+* *Fetter text*
+[source,markdown]
+----
+<b>Fetter text</b> 
+<strong>Fetter text</strong>
+**Fetter text**
+----
+* _Kursiver Text_
+
+[source,markdown]
+----
+<i>Kursiver Text</i> 
+<em>Kursiver Text</em>
+*Kursiver Text*
+----
+
+* [line-through]#Durchgestrichener Text#
+
+[source,markdown]
+----
+<s>strike</s>
+<del>strike</del>
+~~strike~~
+----
+
+* `Codeblock`
+
+[source,markdown]
+----
+<code>Codeblock</code>
+`Codeblock`
+----
+
+* Spoiler
+
+[.center.text-center]
+image::images/spoiler.png[]
+
+[source,markdown]
+----
+|| Spoiler ||
+----

@@ -1,0 +1,26 @@
+== Rose per Link hinzufügen
+
+Sollte man auf dem Handy oder mit Telegram Desktop unterwegs sein, kann man einfach http://telegram.me/MissRose_bot?startgroup=botstart[diesen Link] benutzen, um Rose zu einer Gruppe hinzu zuzufügen.
+
+== Rose per Telegram UI hinzufügen
+
+Man kann Rose auch über die Telegram Oberfläche zu Gruppen hinzufügen. Der Username ist https://t.me/MissRose_bot[@MissRose_bot]. Im Profil des Bots kann über "Gruppe oder Kanal hinzufügen" die Gruppen, in denen Rose für einen aktiv ist, verwalten.
+
+[.center.text-center]
+.Das Nutzerprofil von Rose in der Telegram UI
+image::images/profile.png[]
+
+[.center.text-center]
+.Gruppenverwaltung über die Telegram UI
+image::images/add-groups.png[]
+
+== Rose konfigurieren / steuern
+
+Gesteuert wird Rose über Chatbefehle (alle Textnachrichten, die mit `/` anfangen, zählen i.d.R. als Kommando / Befehl). Um diese Textnachrichten zu Rose zu bekommen, hat man mehrere Optionen.
+
+=== Befehle im Gruppenchat selbst
+
+Rose liest offensichtlich den gesamten Chat einer Gruppe mit. Daher kann man Befehle ganz entspannt in den Gruppenchat schreiben und der Bot wird reagieren.
+
+[.center.text-center]
+image::images/adminlist.png[]

@@ -1,0 +1,6 @@
+== Rechteverwaltung & Adminstration
+
+=== promote
+=== demote
+=== admincache
+=== adminlist
