@@ -41,12 +41,15 @@ image::images/greeting.png[]
 ** einen Button drücken müssen, um entmuted zu werden? (Soll als Mensch-Erkennung dienen)
 ** Den Regeln zustimmen müssen, bevor sie reden dürfen?
 
-
 * Wie viele Warnungen soll ein Nutzer haben könne, bis etwas passiert?
 
 * Was soll bei maximalen Warnungen passieren? (KICK, BAN)?
 
+* Antiflood ab wieviel Nachrichten? (Wie viele Nachrichten darf die gleiche Person hintereinander senden?)  
 
+* Und was soll passieren wenn Antiflood triggert (KICK/BAN)?
+
+* Antiraid (Soll verhindern, dass 100e Nutzer joinen). Klingt irgendwie weniger anwendbar, oder willst du das haben?
 
 
 
